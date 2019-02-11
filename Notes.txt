@@ -1,0 +1,9 @@
+Compile Server:
+  gcc -o Server Server.c DieWithMessage.c TCPServerUtility.c AddressUtility.c
+
+Compile Client:
+  gcc -o Client Client.c DieWithMessage.c TCPClientUtility.c AddressUtility.c
+
+  fuser -k 48031/tcp
+
+  
